@@ -37,6 +37,11 @@ Note - '*' indicates the branch on which we are currently working.
 ### How to start working in another branch?
 ```git checkout name-of-the-another-branch```
 
+### How to merge master branch with another branches
+1. Go to master branch
+```git checkout master```
+```git merge name-of-branch-to-merge```
+
 
 ## HTML
 
