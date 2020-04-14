@@ -1,27 +1,41 @@
 # Web Development using Python and Javascript
 ## git commands
 
-git clone url
+```git clone url```
 
-git add fileName
+```git add fileName```
 
-git commit -m "message"
+```git commit -m "message"```
 
-git status
+```git status```
 
-git push
+```git push```
 
-git pull
+```git pull```
 
 * To merge conflicts after a pull request, open the file in text editor and keep what you need and remove everything else.
 
-git log
+```git log```
 
-git reset --hard <commitID>
+```git reset --hard <commitID>```
 
-git reset --hard origin/master
+```git reset --hard origin/master```
 
-git commit --amend -m "new commit message"
+```git commit --amend -m "new commit message"```
+
+### Git command to list branches in the current repository
+```git branch```
+
+### Git to branch current branch
+```git branch name-of-new-branch```
+
+### list branches in current repository and identify the  current working branch
+```git branch```
+Note - '*' indicates the branch on which we are currently working.
+
+### How to switch for working in another branch?
+```git checkout name-of-the-another-branch```
+
 
 ## HTML
 
