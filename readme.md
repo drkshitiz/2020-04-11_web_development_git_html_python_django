@@ -40,6 +40,12 @@ Note - '*' indicates the branch on which we are currently working.
 ### How to switch for working in another branch?
 ```git checkout name-of-the-another-branch```
 
+### Concept of git remotes
+### How to merge my local master branch with the remote origin/master branches
+```git pull```
+
+### Forks
+fork is completely separate different version of a repository.
 
 
 
@@ -150,10 +156,3 @@ button:hover {
 ## github-pages for deploying html pages
 - Go to github repository.
 - create new repository your-username.github.io, which will serve as your url.
-
-## Concept of git remotes
-### How to merge my local master branch with the remote origin/master branches
-```git pull```
-
-### Forks
-fork is completely separate different version of a repository.
