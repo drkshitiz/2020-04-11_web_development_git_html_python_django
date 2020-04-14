@@ -123,18 +123,22 @@ Add image:
 Margin:30px; padding:20px; font-size:28px; font-weight: bold;font-family:Arial, sans-serif; border: 3px solid blue;
 
 ### formatting immediate children by CSS using > sign
-```  <style>
+```
+<style>
   ol > li {
     color: red;
   }
-  </style>```
+  </style>
+  ```
 
 ### formatting all descendants by CSS using 'space' operator
-  ```  <style>
+  ```
+  <style>
     ol li {
       color: red;
     }
-    </style>```
+    </style>
+    ```
 
 ### how to use pseudoclasses in css to make html elements change state, such as changing colour by hover
 ```
