@@ -83,7 +83,7 @@ Add image:
 </html>
 ```
 ### New tags in HTML5
-<header>, <nav>, <section>, <footer>, <audio>, <video>, <datalist>
+```<header>, <nav>, <section>, <footer>, <audio>, <video>, <datalist>```
 
 ### Datalist is  nice, new feature in HTML5
 
