@@ -21,7 +21,11 @@
 
 ```git reset --hard origin/master```
 
+### How to amend a commit message
 ```git commit --amend -m "new commit message"```
+
+### command for adding and commiting a new message at the same time
+git commit -am "message"
 
 ### Git command to list branches in the current repository
 ```git branch```
@@ -31,21 +35,12 @@
 
 ### list branches in current repository and identify the  current working branch
 ```git branch```
-
 Note - '*' indicates the branch on which we are currently working.
 
-### How to start working in another branch?
+### How to switch for working in another branch?
 ```git checkout name-of-the-another-branch```
 
-### How to merge master branch with another branch
-1. Go to master branch
-```git checkout master```
 
-2. Merge maste branch to name-of-branch-to-merge
-```git merge name-of-branch-to-merge```
-
-### How to push changes from master branch to specific branch
-```git push --set-upstream origin feature```
 
 
 ## HTML
@@ -86,6 +81,9 @@ Add image:
 </form>
 </body>
 </html>
+
+### New tags in HTML5
+<header>, <nav>, <section>, <footer>, <audio>, <video>, <datalist>
 ```
 
 ## CSS (Make  webpages look nicer)
@@ -110,3 +108,10 @@ Margin:30px; padding:20px; font-size:28px; font-weight: bold;font-family:Arial, 
 ## github-pages for deploying html pages
 - Go to github repository.
 - create new repository your-username.github.io, which will serve as your url.
+
+## Concept of git remotes
+### How to merge my local master branch with the remote origin/master branches
+```git pull```
+
+### Forks
+fork is completely separate different version of a repository.
