@@ -84,6 +84,23 @@ Add image:
 
 ### New tags in HTML5
 <header>, <nav>, <section>, <footer>, <audio>, <video>, <datalist>
+
+### Datalist is  nice, new feature in HTML5
+
+### Different input types in HTML
+```<input name="name" type="text" placeholder="First Name">```
+- Other input types are -- text, number, password, radio
+
+### How to style html elements by using types
+```
+<style>
+  input[type=text] {
+    background-color: red;
+  }
+  input[type=number] {
+    background-color: yellow;
+  }
+</style>
 ```
 
 ## CSS (Make  webpages look nicer)
@@ -105,6 +122,19 @@ Add image:
 ### Properties which can be added in div tags to position different elements in a webpage
 Margin:30px; padding:20px; font-size:28px; font-weight: bold;font-family:Arial, sans-serif; border: 3px solid blue;
 
+### formatting immediate children by CSS using > sign
+```  <style>
+  ol > li {
+    color: red;
+  }
+  </style>```
+
+### formatting all descendants by CSS using 'space' operator
+  ```  <style>
+    ol li {
+      color: red;
+    }
+    </style>```
 ## github-pages for deploying html pages
 - Go to github repository.
 - create new repository your-username.github.io, which will serve as your url.
