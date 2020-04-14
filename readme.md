@@ -40,6 +40,8 @@ Note - '*' indicates the branch on which we are currently working.
 ### How to merge master branch with another branches
 1. Go to master branch
 ```git checkout master```
+
+2. Merge maste branch to name-of-branch-to-merge
 ```git merge name-of-branch-to-merge```
 
 
