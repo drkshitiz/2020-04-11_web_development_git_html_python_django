@@ -21,7 +21,11 @@
 
 ```git reset --hard origin/master```
 
+### How to amend a commit message
 ```git commit --amend -m "new commit message"```
+
+### command for adding and commiting a new message at the same time
+git commit -am "message"
 
 ### Git command to list branches in the current repository
 ```git branch```
@@ -35,6 +39,8 @@ Note - '*' indicates the branch on which we are currently working.
 
 ### How to switch for working in another branch?
 ```git checkout name-of-the-another-branch```
+
+
 
 
 ## HTML
