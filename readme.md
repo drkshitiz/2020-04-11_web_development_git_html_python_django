@@ -135,6 +135,14 @@ Margin:30px; padding:20px; font-size:28px; font-weight: bold;font-family:Arial, 
       color: red;
     }
     </style>```
+
+### how to use pseudoclasses in css to make html elements change state, such as changing colour by hover
+```
+button:hover {
+  background-color: orange;
+}
+```
+
 ## github-pages for deploying html pages
 - Go to github repository.
 - create new repository your-username.github.io, which will serve as your url.
