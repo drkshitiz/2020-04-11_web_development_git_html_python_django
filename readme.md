@@ -84,4 +84,4 @@ Margin:30px; padding:20px; font-size:28px; font-weight: bold;font-family:Arial, 
 
 ## github-pages for deploying html pages
 - Go to github repository.
-- create new repository your-username.github.io, which will serves as your url.
+- create new repository your-username.github.io, which will serve as your url.
