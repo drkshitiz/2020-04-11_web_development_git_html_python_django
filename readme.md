@@ -152,7 +152,15 @@ button:hover {
   background-color: orange;
 }
 ```
-
+### How to use psedoelements to add content before certain html tags
+```
+<style>
+  a::before{
+    content: "\21d2 Click here: ";
+    font-weight: bolder
+  }
+</style>
+```
 ## github-pages for deploying html pages
 - Go to github repository.
 - create new repository your-username.github.io, which will serve as your url.
