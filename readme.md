@@ -37,12 +37,15 @@ Note - '*' indicates the branch on which we are currently working.
 ### How to start working in another branch?
 ```git checkout name-of-the-another-branch```
 
-### How to merge master branch with another branches
+### How to merge master branch with another branch
 1. Go to master branch
 ```git checkout master```
 
 2. Merge maste branch to name-of-branch-to-merge
 ```git merge name-of-branch-to-merge```
+
+### How to push changes from master branch to specific branch
+```git push --set-upstream origin feature```
 
 
 ## HTML
