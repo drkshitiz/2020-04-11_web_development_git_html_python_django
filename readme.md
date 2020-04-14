@@ -29,6 +29,12 @@
 ### Git to branch current branch
 ```git branch name-of-new-branch```
 
+### list branches in current repository and identify the  current working branch
+```git branch```
+Note - '*' indicates the branch on which we are currently working.
+
+### How to start working in another branch?
+```git checkout name-of-the-another-branch```
 
 
 ## HTML
