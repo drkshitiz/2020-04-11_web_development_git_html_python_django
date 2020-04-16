@@ -11,6 +11,8 @@
 
 ```git push```
 
+Command to save git credentials in the ubuntu terminal ```git config --global credential.helper cache``` source: <https://help.github.com/en/github/using-git/caching-your-github-password-in-git>
+
 ```git pull```
 
 * To merge conflicts after a pull request, open the file in text editor and keep what you need and remove everything else.
