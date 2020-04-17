@@ -19,6 +19,9 @@ Command to save git credentials in the ubuntu terminal ```git config --global cr
 
 ```git log```
 
+
+Get references to git changes by ```git reflog``` 
+
 ```git reset --hard <commitID>```
 
 ```git reset --hard origin/master```
