@@ -172,3 +172,4 @@ button:hover {
 
 ## Sources:
 * Bootstrap <https://getbootstrap.com/docs/4.3/getting-started/introduction/>
+* HTML5 tables https://htmlreference.io/tables/
