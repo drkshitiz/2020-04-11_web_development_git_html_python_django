@@ -166,6 +166,11 @@ button:hover {
   }
 </style>
 ```
+## how to install Sass in ubuntu terminal 
+```
+sudo apt-get install ruby-full build-essential rubygems
+sudo gem install sass
+```
 ## github-pages for deploying html pages
 - Go to github repository.
 - create new repository your-username.github.io, which will serve as your url.
